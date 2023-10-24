@@ -1,0 +1,21 @@
+a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+a::before{
+    content: "◉";
+    margin-right: 10px;
+
+}
+a:hover{
+    border: 3px solid violet;
+    background-color:lavenderblush;
+    box-shadow: 10px 10px 10px lavender;
+}
+a:visited{
+    text-decoration: line-through ;
+    font-size: 35px;
+    color: gray;
+}
